@@ -1,3 +1,26 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Raquel</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle, #ffafbd, #ffc3a0); /* Fundo degradê suave */
+            overflow: hidden; /* Evita barras de rolagem */
+            font-family: 'Georgia', serif;
+        }
+
+        h1 {
+            color: #d63384;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            z-index: 10; /* Garante que o texto fique na frente dos corações */
             text-align: center;
             background: rgba(255, 255, 255, 0.4);
             padding: 20px 40px;
